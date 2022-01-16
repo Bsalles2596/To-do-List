@@ -40,6 +40,7 @@ body {
 }
 
 .wrapper-list ul.list li {
+  
   position: relative;
   background-color: #262e4c;
   border-bottom: 1px solid #1c2340;
@@ -48,6 +49,7 @@ body {
   align-items: center;
   padding: 20px;
   transition: background-color 300ms ease;
+  word-break: break-all;
 }
 
 .wrapper-list ul.list li.removed {
@@ -96,6 +98,7 @@ body {
 
 .wrapper-list ul.list .done .task {
   text-decoration: line-through;
+  .wrapper-list ul .list
 }
 
 .wrapper-list button.remove {
@@ -141,4 +144,29 @@ body {
   100% {
     transform: rotateX(-90deg);
   }
+}
+
+@media (max-width:630px) {
+    
+    .todoList {
+
+        width: 500px;
+    }
+}
+
+@media (max-width:535px) {
+    
+    .todoList {
+
+        width: 420px;
+    }
+}
+
+@media (max-width:440px) {
+    
+    .todoList {
+
+        width: 390px;
+    }
+
 }
